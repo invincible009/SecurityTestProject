@@ -297,11 +297,3 @@ Recommended cycle:
 4. Stop infra (`docker compose down`)
 
 ---
-
-## 15) Production notes
-
-- Replace local DB credentials and `jwt.secret`
-- Disable debug/security verbose logging
-- Add proper secret management (environment variables or vault)
-- Add API rate limiting and audit logging
-- Add integration and end-to-end tests for full deployment profile
